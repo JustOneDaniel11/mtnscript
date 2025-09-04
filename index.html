@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>MTN 500GB Giveaway</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="container">
+    <!-- Logo -->
+    <img src="mtn-logo.png" alt="MTN Logo" class="logo" />
+
+    <!-- Headline -->
+    <h1>Win 500GB from MTN! 🎉</h1>
+    <p class="sub">Spin the wheel for your chance to win.</p>
+
+    <!-- Wheel -->
+    <div class="wheel-container">
+      <div class="pointer"></div>
+      <div class="wheel" id="wheel">
+        <div class="slice">50MB</div>
+        <div class="slice">100MB</div>
+        <div class="slice">200MB</div>
+        <div class="slice">500GB</div>
+      </div>
+    </div>
+
+    <!-- Spin Button -->
+    <button id="spinBtn" class="btn">Spin Now</button>
+
+    <!-- Congrats Popup -->
+    <div id="congratsPopup" class="popup hidden">
+      <h2>🎊 Congratulations!</h2>
+      <p>You won <strong>500GB</strong>!</p>
+      <button id="startShareBtn" class="btn">Continue</button>
+    </div>
+
+    <!-- Share Popup -->
+    <div id="sharePopup" class="popup hidden">
+      <h2>📲 Claim Your 500GB</h2>
+      <p>Share this promo to 5 WhatsApp groups to unlock your reward.</p>
+
+      <div class="progress-container">
+        <div id="progressBar" class="progress-bar"></div>
+      </div>
+      <p id="progressText">0% Complete</p>
+
+      <button id="shareBtn" class="btn">Share on WhatsApp</button>
+    </div>
+
+    <!-- Claim Popup -->
+    <div id="claimPopup" class="popup hidden">
+      <h2>Enter Your MTN Number</h2>
+      <input type="tel" id="mtnNumber" placeholder="e.g. 08012345678" />
+      <button id="claimBtn" class="btn">Claim 500GB</button>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
