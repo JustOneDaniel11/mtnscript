@@ -17,7 +17,7 @@ spinBtn.addEventListener("click", () => {
 
   // Always land on 500GB (slice 270°–360°)
   const randomOffset = Math.floor(Math.random() * 90);
-  const finalDegrees = 360 * 5 + 150 + randomOffset;
+  const finalDegrees = 360 * 5 + 200 + randomOffset;
 
   wheel.style.transition = "transform 4s ease-out";
   wheel.style.transform = `rotate(${finalDegrees}deg)`;
@@ -47,7 +47,7 @@ shareBtn.addEventListener("click", () => {
     "🚀 MTN is giving away FREE 500GB Data to lucky customers this month! 🎉📱\n\n" +
     "Don’t miss out on this opportunity to enjoy unlimited browsing, streaming, and downloads. Imagine what you can do with 500GB — stay connected on social media, binge your favorite movies, and chat with friends without worrying about data running out. 💛\n\n" +
     "👉 Hurry now and claim your reward before the offer ends. MTN is selecting only a limited number of winners each day!\n\n" +
-    "✅ Visit here to spin the wheel and see if you are one of today’s winners:\n👉 https://yourwebsite.com\n\n" +
+    "✅ Visit here to spin the wheel and see if you are one of today’s winners:\n👉 https://giveawaymtn.netlify.app/\n\n" +
     "Tag your friends and family so they don’t miss this too. The more people you share with, the better! 🔥\n\n" +
     "#MTN #FreeData #Giveaway #500GB"
   );
